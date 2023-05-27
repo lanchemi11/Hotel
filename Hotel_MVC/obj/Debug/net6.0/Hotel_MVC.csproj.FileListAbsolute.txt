@@ -24,3 +24,34 @@ C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\refint\Hote
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.pdb
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.genruntimeconfig.cache
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\ref\Hotel_MVC.dll
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.staticwebassets.runtime.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.exe
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.deps.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.runtimeconfig.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.dll
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\bin\Debug\net6.0\Hotel_MVC.pdb
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.csproj.AssemblyReference.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.AssemblyInfoInputs.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.AssemblyInfo.cs
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.csproj.CoreCompileInputs.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.RazorAssemblyInfo.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.RazorAssemblyInfo.cs
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets\msbuild.Hotel_MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets\msbuild.build.Hotel_MVC.props
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hotel_MVC.props
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hotel_MVC.props
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\scopedcss\bundle\Hotel_MVC.styles.css
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\scopedcss\projectbundle\Hotel_MVC.bundle.scp.css
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.dll
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\refint\Hotel_MVC.dll
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.pdb
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.genruntimeconfig.cache
+C:\Users\Elitebook\Desktop\Hotel\Hotel\Hotel_MVC\obj\Debug\net6.0\ref\Hotel_MVC.dll
