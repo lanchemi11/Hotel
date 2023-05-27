@@ -1,6 +1,10 @@
-﻿namespace Hotel_MVC.Models
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+
+namespace Hotel_MVC.Models
 {
-    public class Hotel
+    public class Apartman
     {
+
     }
 }

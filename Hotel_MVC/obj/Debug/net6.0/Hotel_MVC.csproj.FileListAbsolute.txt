@@ -24,3 +24,17 @@ C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\refint\Hote
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.pdb
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.genruntimeconfig.cache
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\ref\Hotel_MVC.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\DnsClient.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\MongoDB.Bson.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\MongoDB.Driver.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\SharpCompress.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\Snappier.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.csproj.CopyComplete
