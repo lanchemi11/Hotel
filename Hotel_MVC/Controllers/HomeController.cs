@@ -18,6 +18,11 @@ namespace Hotel_MVC.Controllers
             return View();
         }
 
+        public IActionResult Insert()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
