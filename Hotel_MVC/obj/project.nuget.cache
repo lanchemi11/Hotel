@@ -1,6 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "UreFkCJ92cgjkifQd39/LgJZ3/3L/XoGYBRtMNQpnS47wCn0VcdnDQzulqUx8ZAieyfiUYLap9QJD6x+for9Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Milan\\C# Programiranje\\Hotel_MVC\\Hotel_MVC\\Hotel_MVC.csproj",
@@ -31,11 +30,4 @@
       "message": "Problem reading the cache file C:\\Users\\Milan\\C# Programiranje\\Hotel_MVC\\Hotel_MVC\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
-=======
-  "dgSpecHash": "Yr82oxVr3HgQWRh207+bXuNwz4WlAUM6Kn3ZaTsyqoIeboK6RP+WEaBKIZ8Y8L6Jtm3ts1dYFWEeOwL9t5dSoA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Elitebook\\Desktop\\Hotel\\Hotel\\Hotel_MVC\\Hotel_MVC.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
->>>>>>> 3a0b355 (Chaged Index page and added Insert View)
 }
