@@ -5,7 +5,7 @@
 <div class="text-center">
     <div class="d-flex justify-content-between align-items-center">
         <h1 class="display-4">Homepage</h1>
-        <a style="width: 15%" href="#">
+        <a style="width: 15%" href="/Home/Insert">
             <button class="btn btn-primary" style="width: 100%;height: 50px">Insert</button>
         </a>
     </div>
@@ -22,45 +22,25 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>mdo</td>
-                <td>mdo</td>
-                <td>
-                    <button class="btn btn-success">Update</button>
-                </td>
-                <td>
-                    <button class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>fat</td>
-                <td>fat</td>
-                <td>
-                    <button class="btn btn-success">Update</button>
-                </td>
-                <td>
-                    <button class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>twitter</td>
-                <td>fat</td>
-                 <td>
-                    <button class="btn btn-success">Update</button>
-                </td>
-                <td>
-                    <button class="btn btn-danger">Delete</button>
-                </td>
-            </tr>
+            @foreach (var apartman in Model)
+            {
+                <tr>
+                    <td>@apartman.Id</td>
+                    <td>@apartman.BrojSobe</td>
+                    <td>@apartman.Rezervisano</td>
+                    <td>@apartman.Cena</td>
+                    <td>
+                            <img src="@apartman.Slika" />
+                    </td>
+                     <td>
+                         <button class="btn btn-success">Update</button>
+                     </td>
+                     <td>
+                          <button class="btn btn-danger">Delete</button>
+                     </td>
+
+                </tr>
+            }
         </tbody>
     </table>
 </div>
