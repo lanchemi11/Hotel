@@ -5,9 +5,7 @@
 <div class="text-center">
     <div class="d-flex justify-content-between align-items-center">
         <h1 class="display-4">Homepage</h1>
-        <a style="width: 15%" href="/Home/Insert">
-            <button class="btn btn-primary" style="width: 100%;height: 50px">Insert</button>
-        </a>
+        <a class="btn btn-primary" style="width: 15%" href="/Home/Insert">Insert</a>
     </div>
     <table class="table">
         <thead>
@@ -24,8 +22,10 @@
         <tbody>
             @foreach (var apartman in Model)
             {
-                <tr>
-                    <td>@apartman.Id</td>
+               <tr>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@apartman.Id">@apartman.Id</a>
+                    </td>
                     <td>@apartman.BrojSobe</td>
                     <td>@apartman.Rezervisano</td>
                     <td>@apartman.Cena</td>
@@ -33,12 +33,13 @@
                             <img src="@apartman.Slika" />
                     </td>
                      <td>
-                         <button class="btn btn-success">Update</button>
+                             <a class="btn btn-success" asp-controller="Home" asp-action="Update" asp-route-id="@apartman.Id">Update</a>
                      </td>
-                     <td>
-                          <button class="btn btn-danger">Delete</button>
-                     </td>
-
+                    <td>
+                        <form method="post" asp-action="Delete" asp-controller="Home" asp-route-id="@apartman.Id">
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
                 </tr>
             }
         </tbody>

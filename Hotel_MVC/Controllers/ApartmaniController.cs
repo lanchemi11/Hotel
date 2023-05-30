@@ -19,7 +19,6 @@ namespace Hotel_MVC.Controllers
         }
         // GET: api/<ApartmaniController>
         [HttpGet]
-        [Route("api/Apartmani")]
         public IActionResult Get()
         {
             //var apartmani = apartmanService.Get();
@@ -42,8 +41,23 @@ namespace Hotel_MVC.Controllers
 
         // POST api/<ApartmaniController>
         [HttpPost]
-        public ActionResult<Apartman> Post([FromBody] Apartman apartman)
+        public ActionResult<Apartman> Post([FromForm] Apartman apartman, IFormFile slika)
         {
+            if (slika != null && slika.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    slika.CopyTo(memoryStream);
+                    apartman.Slika = memoryStream.ToArray();
+                }
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+
             apartmanService.Create(apartman);
 
             return CreatedAtAction(nameof(Get), new { id = apartman.Id }, apartman);
@@ -62,7 +76,7 @@ namespace Hotel_MVC.Controllers
 
             apartmanService.Update(id, apartman);
 
-            return NoContent();
+            return apartman;
         }
 
         // DELETE api/<ApartmaniController>/5
@@ -78,7 +92,7 @@ namespace Hotel_MVC.Controllers
 
             apartmanService.Remove(apartman.Id);
 
-            return Ok($"Apartman sa Id = {id} obrisan");
+            return RedirectToAction("Index", "Home");
         }
     }
 }
