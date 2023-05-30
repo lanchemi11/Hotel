@@ -37,6 +37,7 @@ namespace Hotel_MVC.Services
 
         public void Update(string id, Apartman aparatman)
         {
+            aparatman.Id = id; // Assign the id value to the Id property
             _apartmani.ReplaceOne(apartman => apartman.Id == id, aparatman);
         }
     }

@@ -70,5 +70,3 @@ C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\li
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
 C:\Users\Milan\C# Programiranje\Hotel_MVC\Hotel_MVC\obj\Debug\net6.0\Hotel_MVC.csproj.CopyComplete
-=======
->>>>>>> 3a0b355 (Chaged Index page and added Insert View)

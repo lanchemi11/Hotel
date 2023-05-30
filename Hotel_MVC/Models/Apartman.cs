@@ -6,9 +6,9 @@ namespace Hotel_MVC.Models
 {
     public class Apartman
     {
-        [BsonId]
+          [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public string? Id { get; set; }
 
         [BsonElement("brojSobe")]
         public int BrojSobe { get; set; }
@@ -20,7 +20,7 @@ namespace Hotel_MVC.Models
         public bool Rezervisano { get; set; }
 
         [BsonElement("slika")]
-        public string Slika { get; set; } = String.Empty;
+        public byte[] Slika { get; set; }
 
     }
 }

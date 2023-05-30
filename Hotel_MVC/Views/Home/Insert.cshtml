@@ -3,6 +3,33 @@
 }
 
 <div class="text-center">
-    <div class="d-flex justify-content-between align-items-center">
-        <h1 class="display-4">Insert Apartment</h1>
+    <div class="d-flex justify-content-center">
+        <h1 class="display-4">Dodaj apartman</h1>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <form method="post" action="/api/Apartmani" enctype="multipart/form-data">
+            <div class="form-group mt-2">
+                <label for="broj_sobe">Broj sobe</label>
+                <input type="text" class="form-control" name="brojSobe" id="brojSobe" placeholder="Broj sobe">
+            </div>
+
+
+            <div class="form-group mt-2">
+                <label for="cena">Cena</label>
+                <input type="number" class="form-control" name="cena" id="cena" placeholder="Cena">
+            </div>
+            
+            <div class="form-group mt-2">
+                <label for="formFile" class="form-label">Izaberi sliku</label>
+                <input class="form-control" type="file" name="slika" id="slika">
+            </div>
+            
+            <div class="form-group mt-2">
+                <label class="form-check-label" for="rezervisi">Rezervisi</label>
+                <input class="form-check-input" type="checkbox" name="rezervisano" id="rezervisano">
+            </div>
+            <button type="submit" class="btn btn-primary col-12">Insert</button>
+        </form>
+    </div>
 </div>
