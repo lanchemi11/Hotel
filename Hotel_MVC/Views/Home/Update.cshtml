@@ -4,7 +4,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post" asp-action="UpdatePost" asp-controller="Home" asp-route-id="@Model.Id">
+        <form method="post" asp-action="UpdatePost" asp-controller="Home" asp-route-id="@Model.Id" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Id" class="control-label"></label>
@@ -28,7 +28,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Slika" class="control-label"></label>
-                <input asp-for="Slika" class="form-control" />
+                <input asp-for="Slika" type="file" class="form-control" />
                 <span asp-validation-for="Slika" class="text-danger"></span>
             </div>
             <div class="form-group mt-3">
