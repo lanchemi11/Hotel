@@ -31,12 +31,21 @@
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Slika)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Slika)
+        <dd class="col-sm-10">
+            @if (Model.Slika != null && Model.Slika.Length > 0)
+            {
+                string base64Image = Convert.ToBase64String(Model.Slika);
+                string imageSource = $"data:image;base64,{base64Image}";
+                <img width="300px" height="300px" src="@imageSource" alt="Apartman Image" />
+            }
+            else 
+            {
+                <span>No image!</span>
+            }
         </dd>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Update", "Update", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Update", "Update", new {  id = Model.Id }) |
     <a asp-action="Index">Back to List</a>
 </div>

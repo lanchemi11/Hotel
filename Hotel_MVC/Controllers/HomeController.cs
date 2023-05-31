@@ -3,7 +3,7 @@ using Hotel_MVC.Services;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
 using System.Diagnostics;
-
+using System.Drawing;
 
 namespace Hotel_MVC.Controllers
 {
@@ -30,6 +30,25 @@ namespace Hotel_MVC.Controllers
             return View();
         }
 
+        public IActionResult CreatePost(Apartman apartman, IFormFile slika)
+        {
+            if (slika != null && slika.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    slika.CopyTo(memoryStream);
+                    apartman.Slika = memoryStream.ToArray();
+                }
+            }
+            else
+            {
+                apartman.Slika = new byte[0];
+            }
+
+            _apartmanService.Create(apartman);
+            return RedirectToAction("Index");
+        }
+
         public IActionResult Delete(string id)
         {
             _apartmanService.Remove(id);
@@ -53,12 +72,29 @@ namespace Hotel_MVC.Controllers
             return View(apartman);
         }
 
-        public IActionResult UpdatePost(string id, Apartman apartman)
+        public IActionResult UpdatePost(string id, Apartman apartman, IFormFile slika)
         {
-           _apartmanService.Update(id, apartman);
-            
+            if (slika != null && slika.Length > 0)
+            {
+                using (var memoryStream = new MemoryStream())
+                {
+                    slika.CopyTo(memoryStream);
+                    apartman.Slika = memoryStream.ToArray();
+                }
+            }
+            else if (apartman.Slika == null || apartman.Slika.Length == 0)
+            {
+                // Preserve the existing image if no new image is uploaded
+                var existingApartman = _apartmanService.Get(id);
+                apartman.Slika = existingApartman.Slika;
+            }
+
+            _apartmanService.Update(id, apartman);
+
             return RedirectToAction("Index");
         }
+
+
         public IActionResult Privacy()
         {
             return View();
